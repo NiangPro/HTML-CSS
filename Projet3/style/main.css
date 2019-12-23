@@ -1,0 +1,777 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Segoe UI;
+}
+#global{
+
+}
+#global,#menu1,#services,#portfolio,#menu2,#twitter,#testimonials,#contact{
+	display: block;
+}
+#menu1,#entete,#corps{
+	display: block;
+}
+
+/* ***************** MENU 1 *****************/
+#menu1{
+	height: 550px;
+	background: url(../image/menu1.png);
+	z-index: 100px;
+}
+#entete{
+	height: 100px;
+	background: #3d474F;
+	opacity: 0.9;
+	color: white;
+}
+
+#logo,#menu_horizontal{
+	display: inline-block;
+}
+
+#logo{
+	width: 200px;
+	font-family: Segoe UI;
+	font-weight: bolder;
+	font-size: 22px;
+	margin-left: 190px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+#logo > span{
+	color: #4bcaff;
+}
+
+#menu_horizontal{
+	float: right;
+	margin-right: 190px;
+}
+#menu_horizontal > ul{
+	float: right;
+	cursor: pointer;
+}
+#menu_horizontal > ul > li{
+	position: relative;
+	float: right;
+	margin-top: 30px;
+}
+
+#menu_horizontal > ul > li>a:hover{
+	color: #4bcaff;
+	cursor: pointer;
+	font-size: 12px;
+	border: 1px solid #4bcaff;
+	padding: 5px;
+}
+
+#menu_horizontal > ul > li > a{
+	width: 200px;
+	z-index: 10px;	
+	color: white;
+	margin: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu_horizontal >ul> li> #home{
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+	padding: 5px;
+}
+
+#corps1{
+	text-align: center;
+	color: white;
+	font-size: 33px;
+	margin-top: 153px;
+	font-weight: lighter;
+}
+
+#corps1 > #text1{
+	background:#3d474F;
+	width: 550px;
+	text-align: center;
+	opacity: 0.8;
+	margin-left: 420px;
+}
+
+#corps1 > #text2{
+	background:#3d474F;
+	width: 760px;
+	text-align: center;
+	opacity: 0.8;
+	margin-left: 315px;
+	margin-top: 10px;
+}
+
+#services, #menu1{
+	display: block;
+}
+
+/* ************* SERVICES ****************************************** */
+#services{
+	background: #4bcaff;
+	height: 320px;
+	float: bottom;
+	padding-top: 5px;
+}
+
+#services > #nomService{
+	color: white;
+	margin-left: 190px;
+	margin-top: 30px;
+	font-weight: lighter;
+}
+
+#services > #nomService > #trait {
+	border: 1px solid white;
+	width: 25px;
+}
+
+#coffee,#instant,#serious,#frame{
+	display: inline-block;
+}
+
+#services > #coffee{
+	margin-left: 190px;
+	color: white;
+	margin-top: 20px;
+}
+
+#services > #coffee > #imgcoffee > h5{
+	margin-top: 5px;
+}
+
+#services > #coffee > #textcoffee{
+	font-size: 10px;
+}
+
+#services > #instant{
+	margin-top: 20px;
+	color: white;
+	margin-left: 25px;
+}
+#services > #instant > #imginstant > h5{
+	margin-top: 5px;
+}
+
+#services > #instant > #textinstant{
+	font-size: 10px;
+}
+
+#services > #serious{
+	margin-top: 20px;
+	color: white;
+	margin-left: 25px;
+}
+#services > #serious > #imgserious > h5{
+	margin-top: 5px;
+}
+
+#services > #serious > #textserious{
+	font-size: 10px;
+}
+
+#services > #frame{
+	margin-top: 20px;
+	color: white;
+	margin-left: 25px;
+}
+#services > #frame > #imgframe > h5{
+	margin-top: 5 px;
+}
+
+#services > #frame > #textframe{
+	font-size: 10px;
+}
+
+/* ************ PORTFOLIO ************************ */
+
+#portfolio{
+	height: 640px;
+}
+
+#portfolio > #nomPortfolio{
+	margin-left: 190px;
+	margin-top: 60px;
+	font-weight: lighter;
+}
+
+#portfolio > #nomPortfolio > #titrePortfolio > a{
+	color: black;
+}
+
+#portfolio > #nomPortfolio > #traitPortfolio {
+	border: 1px solid black;
+	width: 25px;
+}
+
+#nomPortfolio,#menu_portfolio{
+	display: inline-block;
+}
+
+#menu_portfolio{
+	float: right;
+	margin-right: 190px;
+	margin-top: 40px;
+}
+#menu_portfolio > ul{
+	float: right;
+}
+#menu_portfolio > ul > li{
+	position: relative;
+	float: right;
+	margin-top: 20px;
+}
+
+#menu_portfolio > ul > li > a{
+	width: 200px;
+	z-index: 10px;	
+	color: #515f67;
+	margin: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu_portfolio > ul > li>a:hover{
+	color: #4bcaff;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #4bcaff;
+}
+
+#menu_portfolio >ul> li> #all{
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+	min-width: 250px;
+	padding: 5px;
+}
+
+#portfolio > #corps2{
+	margin-top: 45px;
+	margin-left: 190px;
+}
+
+#portfolio >#corps2> #ligne1{
+	height: 230px;
+	width: 970px;
+}
+
+#portfolio >#corps2> #ligne2{
+	height: 230px;
+	width: 970px;
+	margin-top: 10px;
+}
+
+#img1,#img2,#img3,#img4{
+	display: inline-block;
+}
+#img1{
+	width: 230px;
+	height: 100%;
+	background: url(../image/portfolio/1.png);
+}
+
+#img1:hover{
+	width: 230px;
+	height: 100%;
+	background: url(../image/portfolio/1_1.png);
+}
+
+#img2{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/2.png);
+}
+
+#img2:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/2_1.png);
+}
+
+#img3{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/3.png);
+}
+
+#img3:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/3_1.png);
+}
+
+#img4{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/4.png);
+}
+
+#img4:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/4_1.png);
+}
+
+#img5,#img6,#img7,#img8{
+	display: inline-block;
+}
+#img5{
+	width: 230px;
+	height: 100%;
+	background: url(../image/portfolio/5.png);
+}
+
+#img5:hover{
+	width: 230px;
+	height: 100%;
+	background: url(../image/portfolio/5_1.png);
+}
+
+#img6{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/6.png);
+}
+
+#img6:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/6_1.png);
+}
+
+#img7{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/7.png);
+}
+
+#img7:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/7_1.png);
+}
+
+#img8{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/8.png);
+}
+
+#img8:hover{
+	width: 230px;
+	height: 100%;
+	margin-left: 7px;
+	background: url(../image/portfolio/8_1.png);
+}
+
+/* ****************** MENU 2 **********************/
+#menu2{
+	background: #3d474F;
+	height: 380px;
+	color: white;
+}
+#textmenu2, #videomenu2{
+	display: inline-block;
+}
+
+#menu2 > #textmenu2{
+	margin-left: 190px;
+	margin-top: 50px;
+	width: 454px;
+	height: 220px;
+	float: left;
+}
+
+#menu2 > #textmenu2 > #titreMenu2{
+	font-size: 23px;
+	font-weight: lighter;
+}
+
+#menu2 > #textmenu2 > #titreMenu2 > a{
+	color: white;
+}
+
+#menu2 > #textmenu2 > #traitMenu2{
+	border: 1px solid white;
+	width: 40px;
+}
+
+#menu2 > #textmenu2 > #contenuMenu2{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#menu2 > #textmenu2 > #contenuMenu2 > #visit_me{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	padding-right:20px;
+	padding-left: 20px; 
+}
+
+#menu2 > #textmenu2 > #contenuMenu2 > #visit_me:hover{
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	border: 1px solid black;
+	background: #4bcaff;
+	padding: 5px;
+	padding-right:20px;
+	padding-left: 20px; 
+}
+
+#menu2 > #videomenu2{
+	margin-top: 60px;
+	width: 450px;
+	height: 250px;
+	float: right;
+	margin-right: 200px;
+	background-size: 100%;
+}
+
+
+/*  **************** TWITTER ********************************************** */
+#twitter{
+	height: 745px;
+	background: url(../image/twitter/photographe.png);
+	background-size: 100%;
+	background-position: bottom;
+}
+#twitter > #banniereTwitter{
+	background: #4bcaff;
+	height: 290px;
+	color: white;
+}
+
+#textTwitter, #logoTwitter{
+	display: inline-block;
+}
+
+#textTwitter{
+	height: 50px;
+	margin-top: 80px;
+	margin-left: 190px;
+	font-size: 23px;
+}
+
+#textTwitter > #titreTwitter > a{
+	color: white;
+}
+
+#textTwitter > #traitTwitter{
+	border: 1px solid white;
+	width: 35px;
+}
+
+#logoTwitter{
+	height: 30px;
+	margin-top: 80px;
+	margin-right: 190px;
+	float: right;
+	width: 30px;
+	background: url(../image/twitter/logo_twitter.png);
+}
+#corpsBanniere{
+	height: 100px;
+	margin-left: 190px;
+	line-height: 40px;
+	font-size: 21px;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+#corpsBanniere > b{
+	font-weight: bold;
+}
+
+#textCorpsTwitter{
+	margin-left: 190px;
+	height: 50px;
+	color: white;
+	margin-top: 90px;
+	width: 500px;
+	font-size: 23px;
+	font-weight: lighter;
+}
+
+#textCorpsTwitter > #traitCorpsTwitter{
+	border: 1px solid white;
+	width: 30px;
+}
+#contenuCorpsTwitter{
+	margin-left: 190px;
+	height: 250px;
+	width: 980px;
+	margin-top: 40px;
+	color: white;
+	font-size: 10px;
+}
+
+#corpsTwitterContenu1, #corpsTwitterContenu2{
+	display: inline-block;
+}
+
+#corpsTwitterContenu1{
+	height: 100%;
+	width: 480px;
+	line-height: 20px;
+}
+
+#corpsTwitterContenu2{
+	height: 100%;
+	width: 440px;
+	float: right;
+	line-height: 20px;
+}
+
+#icotwitter,#icogoogle,#icoball,#icocoffee{
+	display: inline-block;
+}
+
+#icotwitter{
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	background: url(../image/twitter/twitter.png);
+	background-size: 100%;
+}
+
+#icogoogle{
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	margin-left: 10px;
+	background: url(../image/twitter/google.png);
+	background-size: 100%;
+}
+
+#icoball{
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	margin-left: 10px;
+	background: url(../image/twitter/ball.png);
+	background-size: 100%;
+	background-size: 95%;
+	background-position: center;
+}
+
+#icocoffee{
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	margin-left: 10px;
+	background: url(../image/twitter/coffee.png);
+	background-size: 90%;
+	background-position: center;
+}
+
+/* *********** TESTIMONIALS ***********************************************************/
+
+#testimonials{
+	height: 300px;
+}
+
+#textTestimonials, #logoTestimonials{
+	display: inline-block;
+}
+
+#textTestimonials{
+	margin-left: 190px;
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+#textTestimonials > #traitTestimonials{
+	border: 1px solid black;
+	width: 40px;
+}
+
+#logoTestimonials{
+	font-size: 72pt;
+	float: right;
+	margin-right: 190px;
+	margin-top: 40px;
+	letter-spacing: 5px; 
+	font-family: Myriad Pro;
+}
+
+#corpstestimonials{
+	margin-left: 190px;
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 45px;
+}
+
+#corpstestimonials > p+span{
+	font-size: 16px;
+	color: #4bcaff;
+	font-weight: bold;
+}
+
+/* ******* CONTACT *********************************************************************** */
+
+#contact{
+	height: 775px;
+	background: url(../image/pied.png);
+	background-position: bottom;
+	color: white;
+	background-size: 153%;
+}
+
+#textContact{
+	margin-left: 190px;
+	padding-top: 50px;
+}
+#textContact > #titreContact{
+	font-size: 21px;
+	font-weight: lighter;
+}
+
+#textContact > #traitContact{
+	width: 35px;
+	border: 1px solid white;}
+
+#formulaire{
+	height: 610px;
+}
+
+#formPart1{
+	margin-left: 190px;
+	margin-top: 40px;
+	line-height: 30px;
+	width: 400px;
+	height: 190px;
+}
+
+#formPart1 >.champsInput > input{
+	background: transparent;
+	width: 380px;
+	border: 2px solid white;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+#formPart3 >.champsMessage > textarea{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+	resize: none;
+}
+
+#formPart3 > button{
+	background: #4bcaff;
+	height: 40px;
+	color: white;
+	border: 1px solid #4bcaff;
+	width: 300px;
+}
+#formPart3 > button:hover{
+	color: #4bcaff;
+	cursor: pointer;
+	font-size: 12px;
+	border: 1px solid #4bcaff;
+	background: #353f47;
+}
+
+#formPart1, #formPart2{
+	display: inline-block;
+}
+
+#formPart2{
+	width: 450px;
+	float: right;
+	margin-right: 190px;
+	height: 190px;
+	margin-top: 40px;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#formPart3{
+	margin-left: 190px;
+	margin-top: 30px;
+}
+
+#pied{
+	height: 90px;
+	background: #353f47;	
+	font-size: 12px;
+	color: black;
+}
+
+#menuPied{
+	float: left;
+	margin-left: 190px;
+	}
+#menuPied > ul{
+	float: left;
+}
+
+#menuPied > ul > li >#cPied{
+	border-right: none;
+}
+#menuPied > ul > li{
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	border-right: 1px solid #515f67;
+}
+
+#menuPied > ul > li>a:hover{
+	color: #4bcaff;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 5px;
+	width: 200px;
+}
+
+#menuPied > ul > li > a{
+	width: 200px;
+	z-index: 10px;	
+	margin: 10px;
+	font-weight: bold;
+	color: #515f67;
+}
+
+#menuPied, #textDroite{
+	display: inline-block;
+}
+
+#textDroite{
+	float: right;
+	margin-right: 190px;
+	margin-top: 40px;
+	font-weight: bold;
+	color: #515f67;
+}
+
