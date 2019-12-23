@@ -1,0 +1,108 @@
+*{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: constantia;
+	font-size: 18px;
+}
+#global,#logo,#menu_hori,#menu_vertical,#corps,#sidebar,#pied{
+	display: block;
+	/*border: 1px solid black;*/
+}
+#global{
+	width: 100%;
+}
+#menu_hori,#logo{
+	display: inline-block;
+	height: 70px;
+}
+#logo{
+	width: 18%;
+	height: 90px;
+	font-family: algerian;
+	background: skyblue;
+	border-radius: 30%;
+	text-align: center;
+	font-size: 72px;
+	line-height: 70px;
+}
+#menu_hori{
+	width: 79%;
+	text-align: center;
+	font-family: algerian;
+	float: right;
+	background: skyblue;
+	padding: 12px;
+	font-size: 70px;
+	border-radius: 20px;
+	text-shadow: 0px 5px 0px grey;
+}
+#menu_vertical,#corps,#sidebar{
+	display: inline-block;
+	height: 428px;
+}
+
+
+#menu_vertical{
+	width: 15%;
+	float: left;
+	height: 300px;
+	margin-top: 30px;
+}
+
+#menu_vertical > ul > li >a{
+	color: black;
+	padding: 25px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#menu_vertical > ul > li:hover{
+	-webkit-transform:rotate(3deg);
+	background: radial-gradient(blue,white);
+
+}
+
+#menu_vertical > ul{
+	padding: 10px;
+}
+
+#menu_vertical > ul > li{
+	background: skyblue;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+#menu_vertical > ul > li:exited{
+	background: blue;
+}
+
+#corps{
+	width: 59%;
+	overflow: scroll;
+}
+#corps > #mes{
+	/*color: skyblue;*/
+	font-size: 72px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+}
+#corps > #intro{
+	margin-top: 150px;
+}
+#sidebar{
+	width: 24%;
+	padding: 5px;
+	float: right;
+}
+#pied{
+	float: bottom;
+	background: skyblue;
+	height: 111px;
+	font-size: 12px;
+	border-radius: 15px;
+}
