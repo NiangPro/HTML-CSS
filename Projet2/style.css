@@ -1,0 +1,49 @@
+#global{
+	width: 500px;
+	height: 100px;
+	margin-left: 400px;
+	margin-top: 200px;
+	font-family: helvetica;
+	font-size: 67px;
+}
+
+#inf{
+	color: #D31F43;
+	margin-left: -5px;
+}
+
+#code{
+	color: white;
+	background: #D31F43;
+	width: 200px;
+	padding: 5px;
+	font-weight: bold;
+	margin-left: 330px;
+	margin-top: -83px;
+}
+
+#access{
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: -80px;
+}
+
+#trait{
+	border: 1px solid black;
+	margin-left: 40px;
+	width: 498px;
+}
+
+#sup{
+	margin-top: -81px;
+	margin-left: 550px;
+	color: #D31F43;
+}
+
+#school{
+	font-family: calibri Light;
+	font-weight: lighter;
+	margin-left: 37px;
+	letter-spacing: 64px;
+	font-size: 54px;
+}
